@@ -1,6 +1,6 @@
-- name: Hello World Sample
+- name: test_value1
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: test_value1
       debug:
-        msg: "Hello World!"
+        msg: '{{ test_value1 }}'
