@@ -1,6 +1,6 @@
-- name: test_value1
+- name: print test_variable1
   hosts: all
   tasks:
-    - name: test_value1
+    - name: test_variable1
       debug:
         msg: '{{ test_variable1 }}'
